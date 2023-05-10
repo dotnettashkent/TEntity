@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TEntity.Domain.Entities;
+using TEntity.Domain.Entities.Users;
 
 namespace TEntity.DAL.Contexts
 {
