@@ -1,4 +1,5 @@
-﻿using TEntity.Domain.Enums;
+﻿using System.ComponentModel.DataAnnotations;
+using TEntity.Domain.Enums;
 
 namespace TEntity.Service.DTOs.Users
 {
