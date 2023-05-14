@@ -1,4 +1,5 @@
 ﻿using TEntity.Domain.Commons;
+using TEntity.Domain.Enums;
 
 namespace TEntity.Domain.Entities.Users
 {
@@ -9,5 +10,6 @@ namespace TEntity.Domain.Entities.Users
         public string Address { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
+        public UserRole Role { get; set; }
     }
 }
